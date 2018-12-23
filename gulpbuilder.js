@@ -37,6 +37,8 @@ var Builder = function()
     this._buildJs      = this._buildJs.bind( this );
     this._buildHtml    = this._buildHtml.bind( this );
     this._buildImg     = this._buildImg.bind( this );
+
+    this.createBundle  = this.createBundle.bind( this );
 };
 
 Builder.prototype = {
@@ -162,6 +164,13 @@ Builder.prototype = {
         {
             this._wlist.push( value );
         }
+    },
+
+    // create bundle
+    createBundle : function()
+    {
+        console.log('building all.');
+        this._buildAll(); // fallback
     },
 
     // watch input files for changes

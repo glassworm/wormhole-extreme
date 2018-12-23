@@ -4,10 +4,16 @@
   "description": "An interactive #space scene rendered on the #browser using #WebGL and #Threejs with #Javascript by @raintek_",
   "main": "index.js",
   "scripts": {},
-  "keywords": ["Three.js", "3D scene", "Space", "Wormhole", "WebGL"],
+  "keywords": [
+    "Three.js",
+    "3D scene",
+    "Space",
+    "Wormhole",
+    "WebGL"
+  ],
   "author": "Rainner Lins | @raintek_ | <rainnerlins@gmail.com>",
   "license": "MIT",
-    "repository": {
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/rainner/wormhole-extreme.git"
   },

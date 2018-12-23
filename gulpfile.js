@@ -27,4 +27,6 @@ scene.bundleJs( "./src/js/Planets.js" );
 scene.bundleJs( "./src/js/Wormhole.js" );
 // build/watch/serve task
 gulp.task( "initScene", scene.initWatch );
+// can we build our own release via a new gulp task?
+gulp.task( "createBundle", scene.createBundle );
 
